@@ -21,9 +21,21 @@ const calculator = (a, b) => {
 
         const substract = () => a - b
 
+        const multiply = () => a *b
+
+        const divide = () =>{
+          if(b === 0){
+            throw new Error('Can\'t divide by zero')
+          }else{
+            return a / b
+          }
+        }
+
         return {
             sum,
-            substract
+            substract,
+            multiply,
+            divide
         }
     } else {
         throw new Error("Inputs are not numbers")
