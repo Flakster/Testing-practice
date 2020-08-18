@@ -54,10 +54,10 @@ const caesarCipher = (phrase,shift) => {
       let ciphered = code + shift;
       if (code >= 65 && code <=90){
         if (ciphered > 90){
-          ciphered -= 65
+          ciphered -= 91
         }
         if (ciphered < 65){
-          ciphered += 90
+          ciphered += 65
         }
       }
       if (code >= 97 && code <=122){
