@@ -1,7 +1,8 @@
 import {
     capitalize,
     reverseString,
-    calculator
+    calculator,
+    caesarCipher
 } from './index';
 import { TestScheduler } from 'jest';
 
@@ -57,4 +58,8 @@ test('can\'t divide by 0',() =>{
     expect(() => {
       calculator(10, 0).divide()
   }).toThrow(Error);
+});
+
+test('Caesar cipher with a shift of 5 of hello is mjqqt', () =>{
+  expect(caesarCipher('hello world 1.5',5)).toMatch('mjqqt btwqi 1.5');
 });
