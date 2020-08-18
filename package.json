@@ -1,0 +1,30 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Testing with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flakster/Testing-practice.git"
+  },
+  "keywords": [
+    "testing",
+    "jest",
+    "javascript"
+  ],
+  "author": "Fernando Rivas, Carlos Santamaria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Flakster/Testing-practice/issues"
+  },
+  "homepage": "https://github.com/Flakster/Testing-practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.4.0"
+  }
+}
