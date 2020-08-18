@@ -1,33 +1,34 @@
 {
-  "name": "testing-practice",
-  "version": "1.0.0",
-  "description": "Testing with Jest",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Flakster/Testing-practice.git"
-  },
-  "keywords": [
-    "testing",
-    "jest",
-    "javascript"
-  ],
-  "author": "Fernando Rivas, Carlos Santamaria",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Flakster/Testing-practice/issues"
-  },
-  "homepage": "https://github.com/Flakster/Testing-practice#readme",
-  "devDependencies": {
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
-    "babel-loader": "^8.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "jest": "^26.4.0"
-  }
+    "name": "testing-practice",
+    "version": "1.0.0",
+    "description": "Testing with Jest",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "watch": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Flakster/Testing-practice.git"
+    },
+    "keywords": [
+        "testing",
+        "jest",
+        "javascript"
+    ],
+    "author": "Fernando Rivas, Carlos Santamaria",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Flakster/Testing-practice/issues"
+    },
+    "homepage": "https://github.com/Flakster/Testing-practice#readme",
+    "devDependencies": {
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0",
+        "babel-loader": "^8.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "jest": "^26.4.0"
+    }
 }
